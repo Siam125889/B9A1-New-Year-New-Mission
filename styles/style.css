@@ -307,4 +307,81 @@ header {
 }
 .gift-images img {
   width: 100%;
+  transition: 0.5s;
+}
+.gift-images img:hover {
+  scale: 1.15;
+}
+
+/* subscription section */
+.subscription {
+  width: 80%;
+  margin: auto;
+  margin-top: 120px;
+  height: 616px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.subscription-content {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.subscription-img {
+  margin-bottom: 40px;
+}
+.subscription-title {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.subscription-para {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 48px;
+}
+.input-box {
+  width: 800px;
+}
+input {
+  display: inline-block;
+  box-sizing: border-box;
+}
+input[type="email"] {
+  padding: 25px 267px 25px 30px;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  border-radius: 50px 0 0 50px;
+}
+input[type="submit"] {
+  position: relative;
+  left: -5px;
+  padding: 24px 56px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  border: none;
+  transition: 0.5s;
+}
+input[type="submit"]:hover {
+  background: goldenrod;
 }
