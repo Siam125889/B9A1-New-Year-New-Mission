@@ -410,13 +410,13 @@ footer {
   padding-bottom: 50px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
+.address {
+  max-width: 375px;
+}
 .phone,
 .web {
   display: flex;
   align-items: center;
-}
-.address {
-  max-width: 375px;
 }
 
 .contact img {
