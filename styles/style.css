@@ -128,6 +128,8 @@ header {
   position: relative;
   top: 0;
   left: 0;
+  margin-bottom: 120px;
+  border-radius: 16px;
 }
 .timing-content {
   text-align: center;
@@ -153,4 +155,56 @@ header {
   font-family: Inter;
   font-size: 20px;
   font-weight: 700;
+}
+
+/* offer section */
+.offer {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 120px;
+}
+.offer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.offer-info {
+  max-width: 393px;
+}
+.offer-heading {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.offer-time {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.offer-para {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.enjoy-img {
+  padding: 49px;
+  border: 15px solid #f00;
+  border-radius: 50%;
+}
+.secondary-offer-info {
+  max-width: 276px;
+}
+.year {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.secondary-offer-para {
+  margin-bottom: 43px;
 }
