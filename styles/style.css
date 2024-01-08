@@ -418,11 +418,9 @@ footer {
   display: flex;
   align-items: center;
 }
-
 .contact img {
   padding: 16px;
 }
-
 .logos {
   display: flex;
   justify-content: center;
